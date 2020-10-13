@@ -1,3 +1,6 @@
+USE [CENTRA_ID]
+GO
+DELETE FROM SCH_CENTRA_ID.COMPANIES
 INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM0000003','BANCO PICHINCHA C.A.',1,(select id from sch_centra_id.CATALOGS where code='BAN'),'BCPI','pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','1')
 GO
 INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM0000004','CREDIFE DESARROLLO MICROEMPRESARIAL',1,(select id from sch_centra_id.CATALOGS where code='FIL'),'CRED','pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','1')
