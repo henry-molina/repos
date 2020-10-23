@@ -1,0 +1,2 @@
+ALTER TABLE "WSO2_EI_ANALYTICS_DB"."dbo"."ConfigEntryTable" ALTER COLUMN "configData" VARCHAR(8000);
+GO;
