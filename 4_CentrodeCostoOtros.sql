@@ -1,5 +1,6 @@
 USE [CENTRA_ID]
 GO
+
 INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8512','COBROS QUITO',(select id from sch_centra_id.companies where code = 'ACOV'),(select id from sch_centra_id.costs_centers where code='8512' and sch_centra_id.COSTS_CENTERS.COMPANY_ID in (Select Id from sch_centra_id.COMPANIES where SCH_CENTRA_ID.COMPANIES.CODE='BCPI')),'ACTIVO',1,'8512 COBROS QUITO PICHINCHA SISTEMAS ACOVI','QUITO')
 INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8331','BPAC  - VEHICULOS',(select id from sch_centra_id.companies where code = 'AMER'),(select id from sch_centra_id.costs_centers where code='8331' and sch_centra_id.COSTS_CENTERS.COMPANY_ID in (Select Id from sch_centra_id.COMPANIES where SCH_CENTRA_ID.COMPANIES.CODE='BCPI')),'ACTIVO',1,'8331 BPAC  - VEHICULOS AMERAFIN','QUITO')
 INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('1110','PICHINCHA CORP',(select id from sch_centra_id.companies where code = 'CORP'),(select id from sch_centra_id.costs_centers where code='1110' and sch_centra_id.COSTS_CENTERS.COMPANY_ID in (Select Id from sch_centra_id.COMPANIES where SCH_CENTRA_ID.COMPANIES.CODE='BCPI')),'ACTIVO',1,'1110 PICHINCHA CORP PICHINCHA CORP S.A.','QUITO')
