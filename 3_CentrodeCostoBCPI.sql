@@ -1,4 +1,4 @@
-USE[CENTRA_ID]
+USE [CENTRA_ID]
 GO
 DELETE FROM SCH_CENTRA_ID.COSTS_CENTERS
 INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('0054','12 DE MARZO',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'0054 12 DE MARZO BANCO PICHINCHA C.A.','PORTOVIEJO')
@@ -547,3 +547,10 @@ INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, statu
 INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('6846','',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'6846  BANCO PICHINCHA C.A.','MACHALA')
 INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8400','',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8400  BANCO PICHINCHA C.A.','QUITO')
 INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8374','INFORMATICA',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8374 INFORMATICA BANCO PICHINCHA C.A.','QUITO')
+INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8989','',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8989  BANCO PICHINCHA C.A.','QUITO')
+INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8728','FACTORING',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8728 FACTORING BANCO PICHINCHA C.A.','QUITO')
+INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8475','ESTRATEGIA COMERCIAL PYME',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8475 ESTRATEGIA COMERCIAL PYME BANCO PICHINCHA C.A.','QUITO')
+INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8839','',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8839  BANCO PICHINCHA C.A.','QUITO')
+INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('6003','GESTION PROCESOS',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'6003 GESTION PROCESOS BANCO PICHINCHA C.A.','QUITO')
+INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8866','',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8866  BANCO PICHINCHA C.A.','QUITO')
+INSERT INTO sch_centra_id.costs_centers(code, name, company_id, parent_id, status, valid,filter,city) VALUES('8827','',(select id from sch_centra_id.companies where code = 'BCPI'),null,'ACTIVO',1,'8827  BANCO PICHINCHA C.A.','QUITO')
