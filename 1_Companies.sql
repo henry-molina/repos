@@ -77,7 +77,7 @@ INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_com
 GO
 INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM00000040','TEA',1,(select id from sch_centra_id.CATALOGS where code='EXT'),'GTEA','@pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','0')
 GO
-INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM00000041','TELCOMBAS',1,(select id from sch_centra_id.CATALOGS where code='EXT'),'ANYW','@pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','0')
+INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM00000041','TELCOMBAS',1,(select id from sch_centra_id.CATALOGS where code='EXT'),'TELC','@pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','0')
 GO
 INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM00000042','MAKINSIGHTS',1,(select id from sch_centra_id.CATALOGS where code='EXT'),'MAKS','@pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','0')
 GO
