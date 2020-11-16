@@ -1,2 +1,0 @@
-ALTER TABLE "WSO2AM_STAT_DB"."dbo"."ApimAllAlert" ALTER COLUMN "message" VARCHAR(3000);
-GO;
