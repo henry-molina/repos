@@ -125,3 +125,7 @@ INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_com
 GO
 INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM00000064','PRICEWATERHOUSECOOPERS',1,(select id from sch_centra_id.CATALOGS where code='EXT'),'PWC','pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','0')
 GO
+INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM00000065','BACKBASE',1,(select id from sch_centra_id.CATALOGS where code='EXT'),'BCKB','pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','0')
+GO
+INSERT INTO sch_centra_id.COMPANIES (identifier,business_name, valid,catalog_company_type_id,code,domain_name,status,logon,DOMAIN_NAME_ALTERNATE,DOMAIN_NAME_CLOUD,MASSIVE_PROCESS) VALUES ('COM00000066','MAINT CA',1,(select id from sch_centra_id.CATALOGS where code='EXT'),'MAIN','pichincha.com','ACTIVO','LogonBP.bat','uio.bpichincha.com','pichincha.mail.onmicrososft.com','0')
+GO
